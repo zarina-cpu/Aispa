@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-surface: #f7f4f0;
+  --color-surface-alt: #ffffff;
+  --color-ink: #2d2a32;
+  --color-ink-muted: #6b6570;
+  --color-accent: #9b8bb8;
+  --color-accent-hover: #8776a5;
+  --color-border: #e5ddd4;
+}
+
+.dark {
+  --color-surface: #1a181f;
+  --color-surface-alt: #242129;
+  --color-ink: #ece8e4;
+  --color-ink-muted: #a39eaa;
+  --color-accent: #b5a3c9;
+  --color-accent-hover: #c9b8db;
+  --color-border: #3a3540;
+}
+
+body {
+  @apply min-h-screen bg-surface text-ink font-sans antialiased;
+}
