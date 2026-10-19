@@ -41,7 +41,7 @@ export function HistoryPanel() {
     <section className="rounded-2xl border border-border bg-surfaceAlt p-6 shadow-sm">
       <div className="mb-4 flex items-center justify-between gap-2">
         <h2 className="font-display text-xl font-semibold text-ink">
-          История (Turso)
+          История
         </h2>
         <button
           type="button"
